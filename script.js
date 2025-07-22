@@ -1,4 +1,11 @@
-let hour=document.getElementById("hrs");
-let minute=document.getElementById("hrs");
-let sec=document.getElementById("hrs");
-let minute=document.getElementById("hrs");
+let hour = document.getElementById("hrs");
+let minute = document.getElementById("mins");
+let sec = document.getElementById("secs");
+let indicator = document.getElementById("ind");
+const date = new Date();
+let hrs = date.getHours();
+let min = date.getMinutes();
+let secs = date.getSeconds();
+hour.innerHTML = hrs;
+minute.innerHTML = min;
+sec.innerHTML = secs;
