@@ -7,14 +7,14 @@
 body {
     width: 100%;
     height: 100%;
-    
 }
 
-/* From Uiverse.io by Madflows */ 
+/* ================= Toggle Button (Commented) ================= 
+
 .toggle-switch {
   position: relative;
-  width: 60px;   /* reduced width */
-  height: 30px;  /* reduced height */
+  width: 60px;   
+  height: 30px;  
   --light: #d8dbe0;
   --dark: #28292c;
   --link: rgb(27, 129, 112);
@@ -24,11 +24,11 @@ body {
 .switch-label {
   position: absolute;
   width: 100%;
-  height: 30px; /* same as toggle height */
+  height: 30px; 
   background-color: var(--dark);
   border-radius: 15px;
   cursor: pointer;
-  border: 2px solid var(--dark); /* thinner border */
+  border: 2px solid var(--dark); 
 }
 
 .checkbox {
@@ -51,10 +51,10 @@ body {
 .slider::before {
   content: "";
   position: absolute;
-  top: 3px;  /* reduced top */
-  left: 5px; /* reduced left */
-  width: 20px; /* smaller knob */
-  height: 20px; /* smaller knob */
+  top: 3px;  
+  left: 5px; 
+  width: 20px; 
+  height: 20px; 
   border-radius: 50%;
   box-shadow: inset 8px -3px 0px 0px var(--light);
   background-color: var(--dark);
@@ -62,10 +62,12 @@ body {
 }
 
 .checkbox:checked ~ .slider::before {
-  transform: translateX(30px); /* adjusted for new width */
+  transform: translateX(30px); 
   background-color: var(--dark);
   box-shadow: none;
-}
+}  
+
+============================================================== */
 
 .lightmode {
     width: 100vw;
