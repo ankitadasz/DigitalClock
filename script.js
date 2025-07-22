@@ -9,7 +9,7 @@ function countDown() {
   let min = date.getMinutes();
   let secs = date.getSeconds();
 
- indicator.innerHTML =  hrs >= 12 ? "PM" :"AM";
+ indicator.innerHTML =  hrs >= 12 ? "pm":"am";
   if (hrs > 12) {
     hrs = hrs - 12;
   }
